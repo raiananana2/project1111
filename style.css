@@ -1,0 +1,276 @@
+* { 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+    font-family: sans-serif; 
+    font-weight: 700; 
+} 
+ 
+body { 
+    width: 100%; 
+    height: 100vh; 
+    background-image: url("bg.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    text-transform: uppercase; 
+} 
+ 
+header { 
+    width: 100%; 
+    height: 15vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 0 300px; 
+    color: #fff; 
+} 
+ 
+header input { 
+    border-radius: 10px; 
+    border: 2px solid #ee1515; 
+    padding: 8px 10px; 
+    color: #ee1515; 
+} 
+ 
+.login a{ 
+    text-decoration: none; 
+    list-style: none; 
+    color: #fff; 
+    background: #ee1515; 
+    padding: 7px 10px; 
+    border-radius: 10px; 
+} 
+ 
+.login a:hover { 
+    cursor: pointer; 
+    background: #fff; 
+    color: #ee1515; 
+    transition: 0.5s; 
+} 
+ 
+main{ 
+    color: #fff; 
+    width: 100%; 
+    height: 75vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 0 59px; 
+} 
+ 
+.introduction { 
+    width: 400px; 
+    text-align: center; 
+} 
+ 
+.introduction p{ 
+    text-align: left;
+    color: orange; 
+} 
+ 
+.introduction button{ 
+    margin-top: 10px; 
+    background: #ee1515; 
+    color: #fff; 
+    border-radius: 10px; 
+    padding: 10px; 
+} 
+ 
+.introduction button:hover{ 
+    cursor: grab; 
+    background: #fff; 
+    color: #ee1515; 
+    transition: 0.5s; 
+    border: 2px solid #ee1515; 
+} 
+ 
+aside{ 
+    width: 50%; 
+} 
+ 
+.coupon{ 
+    margin-left: 390px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background: white; 
+    color: #ee1515; 
+    margin-bottom: 100px; 
+    cursor: pointer; 
+    width: 250px; 
+    box-shadow: #111; 
+    font-weight: 1200; 
+} 
+ 
+.coupon img{ 
+    width: 100px; 
+} 
+.coupon p{ 
+    font-size: 20px; 
+} 
+.ball{ 
+    width: 250px; 
+    margin-left: 250px; 
+    animation: ball 3s linear infinite alternate-reverse; 
+ 
+} 
+ 
+@keyframes ball { 
+    to{ 
+        transform: scale(0.5); 
+    } 
+} 
+ 
+section{ 
+    width: 100%; 
+    height: 100vh; 
+    background: #ee1515; 
+    color: #fff; 
+} 
+ 
+.title-shirts{ 
+    padding: 50px 0; 
+    width: 150px; 
+    margin-left: 600px; 
+} 
+ 
+.shirts { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 0px 80px; 
+} 
+.shirt{ 
+    text-align: center; 
+} 
+ 
+.shirt img{ 
+    width: 180px; 
+} 
+ 
+.shirt p{ 
+    margin: 20px 0; 
+} 
+.shirt button{ 
+     padding: 10px 25px; 
+     border: 1px solid #fff; 
+     background: #111 
+     color #fff; 
+     cursor: pointer; 
+     border-radius: 10px; 
+} 
+ 
+.shirt button:hover{ 
+    background: #fff; 
+    color: #ee1515; 
+    transition: 0.5s; 
+    border: 1px solid #111 
+  
+} 
+.content-shoes { 
+    width: 100%; 
+    height: 100vh; 
+    background: #fff; 
+    color: red; 
+} 
+ 
+.title-shoes { 
+    color: #ee1515;
+    padding: 50px 0; 
+    width: 150px; 
+    margin-left: 600px; 
+} 
+ 
+.shoes{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 0px 80px; 
+    color: #ee1515;
+} 
+ 
+.shoe { 
+    text-align: center; 
+} 
+.shoe img{ 
+    width: 180px; 
+ 
+} 
+ 
+.shoe p{ 
+    margin: 100000000000000px 0; 
+ 
+} 
+ 
+.shoe button{ 
+    padding: 10px 25px; 
+    border: 1px solid white; 
+    background: #ee1515; 
+    color: #111; 
+    cursor: pointer; 
+    border-radius: 10px; 
+ 
+} 
+ 
+.shoe button:hover{ 
+    background: #fff; 
+    color: #ee1515; 
+    transition: 0.5s; 
+    border: 1px solid #ee1515; 
+} 
+.content-shorts{ 
+    width: 100%; 
+    height: 100vh; 
+    background: #ee1515; 
+    color: #fff; 
+} 
+  
+.title-shorts { 
+    padding: 50px 0; 
+    width: 150px; 
+    margin-left: 600px; 
+} 
+.shorts { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 0px 80px; 
+} 
+ 
+.short { 
+    text-align: center; 
+} 
+.short img { 
+    width: 180px; 
+} 
+.short p { 
+    margin: 20px 0; 
+} 
+ 
+.short button{ 
+    padding: 10px 25px; 
+    border: 1px solid #fff; 
+    background: #111; 
+    color: #fff; 
+    cursor: pointer; 
+    border-radius: 10px; 
+} 
+ 
+.short button:hover { 
+    background: #fff; 
+    color: #ee1515;
+transition: 0.5s; 
+    border: 1px solid #111; 
+} 
+ 
+footer { 
+    width: 100%; 
+    background: #111; 
+    height: 10vh; 
+    color:#fff; 
+    font-size: 25; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
